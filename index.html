@@ -12,14 +12,18 @@
 </head>
 <body>
     <header>
-        <img src="./images/dice.jpeg" alt="dice">
         <h1>PIG-DICE GAME</h1>
+        <button type="button" name="button" id="rules" class="btn btn-primary">Rules</button>
+        <div class="Rules">
+          <p>Only three <strong>Rules:</strong></p>
+          <ul>
+            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+          </ul>
+          <p>The first player to score 100 or more points wins. Roll the dice and start playing!</p>
+        </div>
     </header>
-    <div class="player1">0</div>
-    <div class="player2">0</div>
-    <button onclick="rollDice">Roll Dice</button>
-    <button onclick="hold">Hold</button>
-    <h2 id="status"></h2>
     
 </body>
 </html>
