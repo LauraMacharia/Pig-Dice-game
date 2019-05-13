@@ -1,14 +1,12 @@
-header img{
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 10px;
-    float: left;
+body{
+    background-image: url("https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/01/07084623/jonathan-petersson-607955-unsplash-e1546850875331.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h1{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    padding-top: 25px;
+header{
+    color:wheat;
+}
+.Rules{
+    color:white;
 }
