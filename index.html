@@ -21,9 +21,44 @@
             <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
             <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
           </ul>
-          <p>The first player to score 100 or more points wins. Roll the dice and start playing!</p>
+          <p>The first player to score 100 or more points wins. Lets start playing!</p>
         </div>
     </header>
-    
+    <div class="players">
+    <div class="row">
+    <div class="col-md-5">
+        <form id="num1">
+            <h2>Player 1</h2>
+            <div class="row">
+              <div class="col">
+                <input id="fname1" type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input id="lname1" type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="save1">Save</button>
+          </form>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary" id="play">PLAY</button>
+        </div>
+    </div>
+        <div class="col-md-5">
+          <form id="num2">
+            <h2>Player 2</h2>
+            <div class="row">
+              <div class="col">
+                <input id="fname2" type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input id="lname2" type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="save2">Save</button>
+          </form>
+          </div>
+        </div>
+    </div>
 </body>
 </html>
