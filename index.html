@@ -15,7 +15,6 @@
         <h1>PIG-DICE GAME</h1>
         <button type="button" name="button" id="rules" class="btn btn-primary">Rules</button>
         <div class="Rules">
-          <p>Only three <strong>Rules:</strong></p>
           <ul>
             <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
             <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
@@ -31,13 +30,10 @@
             <h2>Player 1</h2>
             <div class="row">
               <div class="col">
-                <input id="fname1" type="text" class="form-control" placeholder="First name">
-              </div>
-              <div class="col">
-                <input id="lname1" type="text" class="form-control" placeholder="Last name">
+                <input id="player1" type="text" class="form-control" placeholder="First player">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary" id="save1">Save</button>
+            <button type="submit" class="btn btn-primary" id="save1">Submit</button>
           </form>
         </div>
         <div class="col-md-2">
@@ -49,16 +45,41 @@
             <h2>Player 2</h2>
             <div class="row">
               <div class="col">
-                <input id="fname2" type="text" class="form-control" placeholder="First name">
-              </div>
-              <div class="col">
-                <input id="lname2" type="text" class="form-control" placeholder="Last name">
+                <input id="player2" type="text" class="form-control" placeholder="second player">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary" id="save2">Save</button>
+            <button type="submit" class="btn btn-primary" id="save2">Submit</button>
           </form>
           </div>
+    </div>
+    </div>
+    <div class="game">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <div class="card" id="player1">
+                            <h1 id="winnerp1"></h1>
+                            <h1 id="one">Player 1</h1>
+                            <p id="p1game">0</p>
+                            <p id="p1round">Round: 0</p>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="card" id="player2">
+                            <h1 id="winnerp2"></h1>
+                            <h1 id="two">Player 2</h1>
+                            <p id="p2game">0</p>
+                            <p id="p2round">Round: 0</p>
+                    </div>
+            </div>
         </div>
     </div>
+    </div>
+    <div class="card">
+        <div class="col-md-3">
+            <button type="button" name="button" id="roll">Roll</button>
+            <button type="button" name="button" id="hold">Hold</button>
+        </div>
+          </div>
 </body>
 </html>
