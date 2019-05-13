@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-image: url("https://d24fkeqntp1r7r.cloudfront.net/wp-content/uploads/2019/01/07084623/jonathan-petersson-607955-unsplash-e1546850875331.jpg");
     background-position: center;
@@ -6,7 +11,65 @@ body{
 }
 header{
     color:wheat;
+    text-align: center;
 }
 .Rules{
-    color:white;
+    color:wheat;
+    text-align: center; 
+}
+#button{
+    text-align: center;
+}
+#player1{
+    text-align: center;
+}
+#player2{
+    text-align: center;
+}
+#roll,
+#hold{
+    background-color: red;
+    padding: 10px  20px ;
+    border: none;
+    margin-top: 20px;
+}
+/*#play{
+    padding-t
+}*/
+p{
+/* display: none; */
+}
+.Rules{
+    display: none;
+}
+#game{
+    background: rgba(252, 252, 252, 0.445);
+    width: 600px;
+    max-width: 100%;
+    padding: 40px 0;
+    position: relative;
+    display: inline-block;
+}
+#game input{
+    border-radius: 30px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+}
+#game button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px;
+    background: rgb(46, 124, 241);
+}
+#p1game, #p2game{
+    font-size: 50px;
+}
+.player{
+    background-color: rgba(255, 255, 255, 0.658);
+    /* margin: 0 10px; */
+    
+}
+.center{
+    text-align: center
 }
